@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShadyNagy.Blazor.ComponentRefresh", "src\ShadyNagy.Blazor.ComponentRefresh\ShadyNagy.Blazor.ComponentRefresh.csproj", "{3D237FB3-D6D2-48F2-A472-F84917749374}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{037E4F15-7207-45E9-AA3E-73D67FFDB775}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{6CF904DC-905D-45F5-AB20-A5B37BB76A34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution", "Solution", "{AB384D90-4452-42AC-BBBC-2FB29D3E1437}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D237FB3-D6D2-48F2-A472-F84917749374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D237FB3-D6D2-48F2-A472-F84917749374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D237FB3-D6D2-48F2-A472-F84917749374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D237FB3-D6D2-48F2-A472-F84917749374}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3D237FB3-D6D2-48F2-A472-F84917749374} = {037E4F15-7207-45E9-AA3E-73D67FFDB775}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52C06E4F-6137-4FD6-B644-205E1BCA17EC}
+	EndGlobalSection
+EndGlobal
