@@ -28,10 +28,6 @@ If you like or are using this project please give it a star. Thanks!
 ```powershell
 Install-Package ShadyNagy.Blazor.ComponentRefresh
 ```
-- Add this line to programe.cs in Main Function
-```csharp
-builder.Services.AddSingleton<ComponentService>();
-```
 
 - You have to inherit all LayoutComponent like "MainLayout.razor" from ShadyNagy.Blazor.BlazorLayoutComponent
 
