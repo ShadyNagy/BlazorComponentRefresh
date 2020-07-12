@@ -34,11 +34,21 @@ builder.Services.AddSingleton<ComponentService>();
 ```
 
 - You have to inherit all LayoutComponent like "MainLayout.razor" from ShadyNagy.Blazor.BlazorLayoutComponent
+Change this
+```csharp
+@inherits LayoutComponentBase
+```
+to
 ```csharp
 @inherits ShadyNagy.Blazor.BlazorLayoutComponent
 ```
 
 - You have to inherit all Component or page like "Counter.razor" from ShadyNagy.Blazor.BlazorComponent
+Change this
+```csharp
+@inherits ComponentBase
+```
+to
 ```csharp
 @inherits ShadyNagy.Blazor.BlazorComponent
 ```
