@@ -5,7 +5,7 @@ namespace ShadyNagy.Blazor.ComponentRefresh
 {
     public class BlazorLayoutComponent : LayoutComponentBase
     {
-        private readonly ComponentService _refresh = ComponentService.Instance;
+        private readonly ComponentBroadcast _refresh = ComponentBroadcast.Instance;
 
         protected override Task OnInitializedAsync()
         {

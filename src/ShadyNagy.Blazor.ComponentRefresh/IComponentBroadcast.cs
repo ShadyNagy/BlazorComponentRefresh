@@ -2,7 +2,7 @@
 
 namespace ShadyNagy.Blazor.ComponentRefresh
 {
-    internal interface IComponentService
+    internal interface IComponentBroadcast
     {
         event Action RefreshRequested;
         void CallRequestRefresh();
