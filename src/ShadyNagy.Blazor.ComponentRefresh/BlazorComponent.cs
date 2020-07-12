@@ -5,17 +5,17 @@ namespace ShadyNagy.Blazor.ComponentRefresh
 {
     public class BlazorComponent : ComponentBase
     {
-        [Inject] private ComponentService Refresh { get; set; }
+        private readonly ComponentService _refresh = ComponentService.Instance;
 
         protected override Task OnInitializedAsync()
         {
-            Refresh.RefreshRequested += DoRefresh;
+            _refresh.RefreshRequested += DoRefresh;
             return base.OnInitializedAsync();
         }
 
         public void CallRequestRefresh()
         {
-            Refresh.CallRequestRefresh();
+            _refresh.CallRequestRefresh();
         }
 
         private void DoRefresh()
