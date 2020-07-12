@@ -55,7 +55,7 @@ to
 @inherits ShadyNagy.Blazor.BlazorComponent
 ```
 
-- When need to refresh all the components and layouts call this function CallRequestRefresh from component or layout
+- If you need to refresh all the components and layouts call this function CallRequestRefresh from any component or layout.
 ```csharp
 CallRequestRefresh();
 ```
