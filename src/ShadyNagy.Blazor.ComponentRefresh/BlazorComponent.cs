@@ -1,5 +1,4 @@
-﻿using System.Threading.Tasks;
-using Microsoft.AspNetCore.Components;
+﻿using Microsoft.AspNetCore.Components;
 
 namespace ShadyNagy.Blazor.ComponentRefresh
 {
@@ -7,10 +6,10 @@ namespace ShadyNagy.Blazor.ComponentRefresh
     {
         private readonly ComponentBroadcast _refresh = ComponentBroadcast.Instance;
 
-        protected override Task OnInitializedAsync()
+        protected override void OnInitialized()
         {
             _refresh.RefreshRequested += DoRefresh;
-            return base.OnInitializedAsync();
+            base.OnInitialized();
         }
 
         public void CallRequestRefresh()
