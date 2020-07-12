@@ -41,7 +41,7 @@ Change this
 ```
 to
 ```csharp
-@inherits ShadyNagy.Blazor.BlazorLayoutComponent
+@inherits ShadyNagy.Blazor.ComponentRefresh.BlazorLayoutComponent
 ```
 
 - You have to inherit all Component or page like "Counter.razor" from ShadyNagy.Blazor.BlazorComponent
@@ -52,7 +52,7 @@ Change this
 ```
 to
 ```csharp
-@inherits ShadyNagy.Blazor.BlazorComponent
+@inherits ShadyNagy.Blazor.ComponentRefresh.BlazorComponent
 ```
 
 - If you need to refresh all the components and layouts call this function CallRequestRefresh from any component or layout.
