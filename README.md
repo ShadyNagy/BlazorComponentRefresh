@@ -25,6 +25,9 @@ If you like or are using this project please give it a star. Thanks!
 
 ## How To Use
 - After install from Nuget
+```powershell
+Install-Package ShadyNagy.Blazor.ComponentRefresh
+```
 - Add this line to programe.cs in Main Function
 ```csharp
 builder.Services.AddSingleton<ComponentService>();
