@@ -130,3 +130,5 @@ Counter.razor
     }
 }
 ```
+## Animated Screenshots
+![component-refresh](https://user-images.githubusercontent.com/6225593/87247411-ffbb0e00-c453-11ea-97f7-ad80a6120258.gif)
