@@ -1,0 +1,18 @@
+﻿@page "/counter"
+
+@inherits ShadyNagy.Blazor.ComponentRefresh.BlazorComponent
+
+<h1>Counter</h1>
+
+<p>Current count: @SomethingShared.CurrentCount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+@code {
+
+    private void IncrementCount()
+    {
+        SomethingShared.CurrentCount++;
+        CallRequestRefresh();
+    }
+}
