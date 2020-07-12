@@ -33,14 +33,14 @@ Install-Package ShadyNagy.Blazor.ComponentRefresh
 builder.Services.AddSingleton<ComponentService>();
 ```
 
-- You have to inherit all LayoutComponent like "MainLayout.razor" from BlazorAdmin.Helper.BlazorLayoutComponent
+- You have to inherit all LayoutComponent like "MainLayout.razor" from ShadyNagy.Blazor.BlazorLayoutComponent
 ```csharp
-@inherits BlazorAdmin.Helper.BlazorLayoutComponent
+@inherits ShadyNagy.Blazor.BlazorLayoutComponent
 ```
 
-- You have to inherit all Component or page like "Counter.razor" from BlazorAdmin.Helper.BlazorComponent
+- You have to inherit all Component or page like "Counter.razor" from ShadyNagy.Blazor.BlazorComponent
 ```csharp
-@inherits BlazorAdmin.Helper.BlazorComponent
+@inherits ShadyNagy.Blazor.BlazorComponent
 ```
 
 - When need to refresh all the components and layouts call this function CallRequestRefresh from component or layout
