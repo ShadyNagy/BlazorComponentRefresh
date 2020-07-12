@@ -5,8 +5,8 @@
     <a href="https://www.nuget.org/packages/ShadyNagy.Blazor.ComponentRefresh" alt="NuGet">
         <img src="https://img.shields.io/nuget/dt/ShadyNagy.Blazor.ComponentRefresh" />
     </a>
-    <a href="https://github.com/shadynagy/Utilities/workflows/publish%20ShadyNagy.Blazor.ComponentRefresh%20to%20nuget/badge.svg" alt="Contributors">
-        <img src="https://github.com/shadynagy/Utilities/workflows/publish%20ShadyNagy.Blazor.ComponentRefresh%20to%20nuget/badge.svg" />
+    <a href="https://github.com/shadynagy/BlazorComponentRefresh/workflows/publish%20ShadyNagy.Blazor.ComponentRefresh%20to%20nuget/badge.svg" alt="Workflows">
+        <img src="https://github.com/shadynagy/BlazorComponentRefresh/workflows/publish%20ShadyNagy.Blazor.ComponentRefresh%20to%20nuget/badge.svg" />
     </a>
     <a href="https://github.com/ShadyNagy/Utilities/graphs/contributors" alt="Contributors">
         <img src="https://img.shields.io/github/contributors/ShadyNagy/BlazorComponentRefresh" />
