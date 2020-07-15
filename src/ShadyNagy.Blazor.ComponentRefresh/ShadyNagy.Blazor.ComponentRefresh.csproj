@@ -20,7 +20,7 @@
     <Features>strict</Features>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Copyright>Shady Nagy</Copyright>
+    <Copyright>Copyright 2019 - 2020 (c) Shady Nagy. All rights reserved.</Copyright>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)'=='Debug'">
