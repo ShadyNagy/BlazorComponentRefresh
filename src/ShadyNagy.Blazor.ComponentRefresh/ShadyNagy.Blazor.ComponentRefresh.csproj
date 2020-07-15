@@ -6,7 +6,7 @@
     <PackageId>ShadyNagy.Blazor.ComponentRefresh</PackageId>
     <Title>ShadyNagy.Blazor.ComponentRefresh</Title>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Authors>Shady Nagy (@_ShadyNagy)</Authors>
+    <Authors>Shady Nagy</Authors>
     <Company>ShadyNagy.com</Company>
     <PackageProjectUrl>https://github.com/ShadyNagy/BlazorComponentRefresh</PackageProjectUrl>
     <Description>Blazor component refresh.</Description>
