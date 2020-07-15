@@ -8,7 +8,7 @@
     <a href="https://github.com/ShadyNagy/BlazorComponentRefresh/actions?query=workflow%3A%22publish+ShadyNagy.Blazor.ComponentRefresh+to+nuget%22" alt="Workflows">
         <img src="https://github.com/shadynagy/BlazorComponentRefresh/workflows/publish%20ShadyNagy.Blazor.ComponentRefresh%20to%20nuget/badge.svg" />
     </a>
-    <a href="https://github.com/ShadyNagy/Utilities/graphs/contributors" alt="Contributors">
+    <a href="https://github.com/ShadyNagy/BlazorComponentRefresh/graphs/contributors" alt="Contributors">
         <img src="https://img.shields.io/github/contributors/ShadyNagy/BlazorComponentRefresh" />
     </a>
     <a href="https://github.com/ShadyNagy/BlazorComponentRefresh/blob/master/LICENSE" alt="license">
